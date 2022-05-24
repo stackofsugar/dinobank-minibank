@@ -1,0 +1,33 @@
+body {
+    color: white;
+    background-color: #0d1117 !important;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+footer {
+    background-color: #161b22;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+footer {
+    margin-top: auto;
+    min-height: 35px;
+}
+
+input {
+    background-color: transparent !important;
+    color: white !important;
+}
+
+.password-peek {
+    background-color: #161b22;
+    color: white;
+}
